@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar {
+  margin: 10px 0;
+}
+.navbar-default {
+background-color: #fff;
+border-color: #fff;
+}
+
+.nav-container { 
+padding-top: 8px;
+}
+
+.navbar-custom {
+    font-size: 20px;
+    background-color: #FFF;
+}
+ .jumbotron{
+    background: url( ../img/1.JPG) no-repeat center center;
+    background-size: cover;
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: white;
+	 
+}
+.me{
+    background: url( ../img/2.JPG) no-repeat center center;
+    background-size: cover;
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: white;
+	 
+}
+ .testo { 
+ color: black;
+ text-decoration: none;
+	font-size:medium; 
+}
+body {
+  font-family: 'Indie Flower', cursive;
+}
+.footer {
+	    background-color: #f5f5f5;
+}
+
+#myCarousel.item{
+	   height: 400px;
+}
+#slide1{
+	    background:url('../img/assett_medium/slice1.jpg') top center no-repeat;
+}
+#slide2{
+	    background:url('../img/assett_medium/slice2.jpg') top center no-repeat;
+}
+#slide3{
+	    background:url('../img/assett_medium/slice3.jpg') top center no-repeat;
+}
+#slide4{
+	    background:url('../img/assett_medium/slice4.jpg') top center no-repeat;
+}
+#slide5{
+	    background:url('../img/assett_medium/slice5.jpg') top center no-repeat;
+}
+#slide6{
+	    background:url('../img/assett_medium/slice6.jpg') top center no-repeat;
+}
+#slide7{
+	    background:url('../img/assett_medium/slice7.jpg') top center no-repeat;
+}
+#slide8{
+	    background:url('../img/assett_medium/slice8.jpg') top center no-repeat;
+}
+#slide9{
+	    background:url('../img/assett_medium/slice9.jpg') top center no-repeat;
+}
+#slide10{
+	    background:url('../img/assett_medium/slice10.jpg') top center no-repeat;
+}
+#slide11{
+	    background:url('../img/assett_medium/slice11.jpg') top center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+		

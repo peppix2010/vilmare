@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar {
+  margin: 10px 0;
+}
+.navbar-default {
+background-color: #fff;
+border-color: #fff;
+}
+
+.nav-container { 
+padding-top: 8px;
+}
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #a21818;
+}	
+.navbar-custom {
+    font-size: 20px;
+    background-color: #FFF;
+}
+ .jumbotron{
+    background: url( ../img/1.JPG) no-repeat center center;
+    background-size: cover;
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: white;
+	 
+}
+.me{
+    background: url( ../img/2.JPG) no-repeat center center;
+    background-size: cover;
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: white;
+	 
+}
+ .testo { 
+ color: black;
+ text-decoration: none;
+	font-size:medium; 
+}
+body {
+  font-family: 'Indie Flower', cursive;
+}
+.footer {
+	    background-color: #f5f5f5;
+}a {
+  color: #604F50;
+  text-decoration: none;
+}
+ 
+#my_carousel.item{
+	   height: 400px;
+		}
+.carousel-inner{
+background:  #e46e50;
+}
+.carousel-indicators {
+		bottom:-25px;
+		background:gray;
+		 box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+	    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+	    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+	    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+	    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
+	}
+.panel{
+	   border: 1px solid gray;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+		}

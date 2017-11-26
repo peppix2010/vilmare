@@ -6,6 +6,9 @@ npm-debug.log
 *.env
 *.dev
 .DS_Store
+.idea/modules.xml
+.idea/vilmare.iml
+.idea/workspace.xml
 
 # Docker
 Dockerfile

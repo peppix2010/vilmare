@@ -2,6 +2,7 @@
 /* CSS Document */
 .navbar {
   margin: 10px 0;
+
 }
 .navbar-default {
 background-color: #fff;
@@ -17,15 +18,26 @@ padding-top: 8px;
     line-height: 20px;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: #a21818;
-}	
+    color: #e5252d;
+	font-weight: bold;
+	}
+.nav-tabs > li > a {
+   	font-size: large;	
+}
+.navbar-right{
+   	font-size: large;
+}
+.navbar-right > li.active > a, .navbar-right > li.active > a:hover, .navbar-right > li.active > a:focus {
+    color: #e5252d;
+	font-weight: bold;
+	}
 .navbar-custom {
     font-size: 20px;
     background-color: #FFF;
 }
  .jumbotron{
     background: url( ../img/1.JPG) no-repeat center center;
-    background-size: cover;
+    background-size:cover;
 	padding-top:100px;
 	padding-bottom: 100px;
 	text-align: center;
@@ -45,9 +57,12 @@ padding-top: 8px;
  color: black;
  text-decoration: none;
 	font-size:medium; 
+	 font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+  font-style: semilight;
 }
 body {
-  font-family: 'Indie Flower', cursive;
+  font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+  font-style: semilight;
 }
 .footer {
 	    background-color: #f5f5f5;
@@ -60,7 +75,7 @@ body {
 	   height: 400px;
 		}
 .carousel-inner{
-background:  #e46e50;
+background:  #e5252d;
 }
 .carousel-indicators {
 		bottom:-25px;
@@ -71,9 +86,24 @@ background:  #e46e50;
 	    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
 	    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
 	}
-.panel{
-	   border: 1px solid gray;
-    border-radius: 4px;
+.panel-footer{
+	   font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+       font-style: semilight;
+	   font-size: medium;
+	}
+.panel-body{
+	   font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+       font-style: semilight;
+	   font-size: medium;
+	}
+.panel-heading{
+	   font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+       font-style: semilight;
+	   font-size: medium;
+		}
+.panel{	   
+	  border: 1px solid gray;
+      border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 		}
 .video-container {

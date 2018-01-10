@@ -11,9 +11,12 @@
     
  <body>
  <section>
+ 
 <div class="container-fluid">
+
  <nav class="navbar navbar-default navbar-static-top">
   <div class="container">
+   
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,38 +33,20 @@
       
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li class="active"><a style= "color: #a21818;
-    background-color: #fff;" href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-         <li><a style="padding-top:0;" href="../index.html"><img alt="Italiano" style=" height: 70px;" src="img/italian.gif"></a> </li>
-	  </ul>
-      </ul>
-        </li>
-      </ul>
+         <li><a href="curriculum_website.pdf">CV</a></li>
+         <li class="active"><a style= "color: #a21818; background-color: #fff;" href="portfolio.html">Portfolio</a></li>
+         <li><a href="about.html">About</a></li>
+         </ul>
     </div><!-- navbar-collapse -->
   </div><!-- container-->
 </nav>
 <!--fine NavBar--> 
 
-<!-- quote-->
-<div class="row">
-	<div class="col-md-4"></div>
-    <div class="col-md-4">
-      <p><blockquote>“Always follow your passions.<br>
-       Do not ask if they are realistic or not.”
-       <h5>-Deepak Chopra </h5>
-       </blockquote></p>
-    </div>
-  <div class="col-md-4"></div>
-</div>
-<!--end  quote-->
-
 
 <div class="container" style="padding: 20px " >
 
 <div class="container">
-  <h3>Things I love to create</h3>
+	<!--<h3><font color="#e5252d">Things I love to create</font></h3>-->
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#foto">Digital photography</a></li>
      <li><a data-toggle="tab" href="#macchiedicolore">Macchie di colore</a></li>
@@ -78,12 +63,13 @@
     <!-- panel foto-->      
  <div id="foto" class="tab-pane fade fade in active"> 
    <div class="panel">
-            <div class="panel-heading" style="background-color:#9896a4; text-align: center"><h4>   Digital photography</h4></div>
+            <div class="panel-heading" style="background-color:#9896a4; text-align: center">
+            <h2><font color="#fff">Digital photography</font></h2></div>
             <div class="panel-body">
             <div class="row">
-            <div class="col-md-6"> <img src="img/foto/piove.jpg" class="img-responsive" style="width:500px" alt="Image"></div>
-            <div class="col-md-6">Insignificant elements captured in the framing of a photograph may acquire the beauty of a poem.<br><br>
-            <h4>Rain</h4>
+            <div class="col-md-9"> <img src="img/foto/piove.jpg" class="img-responsive" style="width:800px" alt="Image"></div>
+            <div class="col-md-3"><br><br>
+            <h2>Rain</h2>
             Hanging by a thread in the<br>
             blue morning, close<br>
             but not fastened, without<br>
@@ -95,15 +81,16 @@
            </div>
            </div> 
            </div>
-           <div class="panel-footer">A photograph is a moment of pure beauty for me.<br>
+           <div class="panel-footer">I think a photograph is a moment of pure beauty.<br>
            It gives me the opportunity to stop time, to capture details otherwise unimportant; to focus on the reality I like, I feel and I want to express in a particular moment, regardless of the type of camera, powerful or as simple as a smartphone.</div>
       </div>
       
       <div class="panel">
-           <div class="panel-heading" style="border:2px; text-align:center;"><h4>Gallery</h4></div>
+           <div class="panel-heading" style="border:2px; text-align:center;"><h2>Gallery</h2></div>
             <div class="panel-body">
         <div class="row">
-            <div class="col-md-3"> <a href="#myModalfoto1" role="button" data-toggle="modal"><img src="img/fiori/1.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+            
+            <div class="col-md-3"> <a href="#myModalfoto1" role="button" data-toggle="modal"><img src="img/fiori/1.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Bed of roses</div>
              
             <!-- Modal foto1-->
               <div id="myModalfoto1" class="modal fade" role="dialog">
@@ -126,7 +113,7 @@
               </div>
               <!-- Fine Modal foto1-->
               
-             <div class="col-md-3"> <a href="#myModalfoto2" role="button" data-toggle="modal"><img src="img/fiori/2.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+             <div class="col-md-3"> <a href="#myModalfoto2" role="button" data-toggle="modal"><img src="img/fiori/2.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Desert</div>
              
              <!-- Modal foto2-->
               <div id="myModalfoto2" class="modal fade" role="dialog">
@@ -141,6 +128,8 @@
               <div class="modal-body">
               <img src="img/fiori/2.JPG" class="img-responsive"  alt="Image">
               </div>
+              <div class="panel-footer">Mojave Desert, California
+				  </div>
               <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -149,7 +138,7 @@
               </div>
               <!-- Fine Modal foto2-->
              
-              <div class="col-md-3"> <a href="#myModalfoto3" role="button" data-toggle="modal"><img src="img/fiori/3.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+              <div class="col-md-3"> <a href="#myModalfoto3" role="button" data-toggle="modal"><img src="img/fiori/3.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Morning light</div>
                <!-- Modal foto3-->
               <div id="myModalfoto3" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -171,7 +160,7 @@
               </div>
               <!-- Fine Modal foto3-->
               
-               <div class="col-md-3"> <a href="#myModalfoto4" role="button" data-toggle="modal"><img src="img/fiori/4.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+               <div class="col-md-3"> <a href="#myModalfoto4" role="button" data-toggle="modal"><img src="img/fiori/4.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>The intruder</div>
                <!-- Modal foto4-->
               <div id="myModalfoto4" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -195,7 +184,7 @@
 		</div>
         <div class="row">
               
-               <div class="col-md-3"> <a href="#myModalfoto5" role="button" data-toggle="modal"><img src="img/fiori/5.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+               <div class="col-md-3"> <a href="#myModalfoto5" role="button" data-toggle="modal"><img src="img/fiori/5.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Rocks</div>
                <!-- Modal foto5-->
               <div id="myModalfoto5" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -218,7 +207,7 @@
               <!-- Fine Modal foto5-->
               
             
-              <div class="col-md-3"> <a href="#myModalfoto6" role="button" data-toggle="modal"><img src="img/fiori/6.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+              <div class="col-md-3"> <a href="#myModalfoto6" role="button" data-toggle="modal"><img src="img/fiori/6.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Vigilant</div>
                <!-- Modal foto6-->
               <div id="myModalfoto6" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -240,7 +229,7 @@
               </div>
               <!-- Fine Modal foto6-->
               
-               <div class="col-md-3"> <a href="#myModalfoto7" role="button" data-toggle="modal"><img src="img/fiori/7.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+               <div class="col-md-3"> <a href="#myModalfoto7" role="button" data-toggle="modal"><img src="img/fiori/7.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Sacred</div>
                <!-- Modal foto7-->
               <div id="myModalfoto7" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -262,7 +251,7 @@
               </div>
               <!-- Fine Modal foto7-->
               
-               <div class="col-md-3"> <a href="#myModalfoto8" role="button" data-toggle="modal"><img src="img/fiori/8.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+               <div class="col-md-3"> <a href="#myModalfoto8" role="button" data-toggle="modal"><img src="img/fiori/8.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>The shadow</div>
                <!-- Modal foto8-->
               <div id="myModalfoto8" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -287,7 +276,7 @@
       
       
        <div class="row">
-            <div class="col-md-3"> <a href="#myModalfoto9" role="button" data-toggle="modal"><img src="img/fiori/9.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+            <div class="col-md-3"> <a href="#myModalfoto9" role="button" data-toggle="modal"><img src="img/fiori/9.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Sad rose</div>
              
             <!-- Modal foto9-->
               <div id="myModalfoto9" class="modal fade" role="dialog">
@@ -310,7 +299,7 @@
               </div>
               <!-- Fine Modal foto9-->
               
-             <div class="col-md-3"> <a href="#myModalfoto10" role="button" data-toggle="modal"><img src="img/fiori/10.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+             <div class="col-md-3"> <a href="#myModalfoto10" role="button" data-toggle="modal"><img src="img/fiori/10.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Velvet leaves</div>
              
              <!-- Modal foto10-->
               <div id="myModalfoto10" class="modal fade" role="dialog">
@@ -333,7 +322,7 @@
               </div>
               <!-- Fine Modal foto10-->
              
-              <div class="col-md-3"> <a href="#myModalfoto11" role="button" data-toggle="modal"><img src="img/fiori/11.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+              <div class="col-md-3"> <a href="#myModalfoto11" role="button" data-toggle="modal"><img src="img/fiori/11.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Together</div>
                <!-- Modal foto3-->
               <div id="myModalfoto11" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -355,7 +344,7 @@
               </div>
               <!-- Fine Modal foto11-->
               
-               <div class="col-md-3"> <a href="#myModalfoto12" role="button" data-toggle="modal"><img src="img/fiori/12.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+               <div class="col-md-3"> <a href="#myModalfoto12" role="button" data-toggle="modal"><img src="img/fiori/12.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Red</div>
                <!-- Modal foto4-->
               <div id="myModalfoto12" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -378,7 +367,7 @@
               <!-- Fine Modal foto12-->
 		</div>
      <div class="row">
-            <div class="col-md-3"> <a href="#myModalfoto13" role="button" data-toggle="modal"><img src="img/sunset/1.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+            <div class="col-md-3"> <a href="#myModalfoto13" role="button" data-toggle="modal"><img src="img/sunset/1.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Hide</div>
              
             <!-- Modal foto13-->
               <div id="myModalfoto13" class="modal fade" role="dialog">
@@ -393,6 +382,8 @@
               <div class="modal-body">
               <img src="img/sunset/1.jpg" class="img-responsive"  alt="Image">
               </div>
+              <div class="panel-footer">Laguna Beach, California
+				  </div>
               <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -401,9 +392,9 @@
               </div>
               <!-- Fine Modal foto13-->
               
-             <div class="col-md-3"> <a href="#myModalfoto14" role="button" data-toggle="modal"><img src="img/sunset/2.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+             <div class="col-md-3"> <a href="#myModalfoto14" role="button" data-toggle="modal"><img src="img/sunset/2.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Surfer</div>
              
-             <!-- Modal foto2-->
+             <!-- Modal foto14-->
               <div id="myModalfoto14" class="modal fade" role="dialog">
               <div class="modal-dialog">
 
@@ -416,6 +407,8 @@
               <div class="modal-body">
               <img src="img/sunset/2.JPG" class="img-responsive"  alt="Image">
               </div>
+              <div class="panel-footer">Huntington Beach (Surf City), California
+				  </div>
               <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -424,7 +417,7 @@
               </div>
               <!-- Fine Modal foto14-->
              
-              <div class="col-md-3"> <a href="#myModalfoto15" role="button" data-toggle="modal"><img src="img/sunset/3.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+              <div class="col-md-3"> <a href="#myModalfoto15" role="button" data-toggle="modal"><img src="img/sunset/3.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Pacific sunset</div>
                <!-- Modal foto15-->
               <div id="myModalfoto15" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -446,7 +439,7 @@
               </div>
               <!-- Fine Modal foto15-->
               
-               <div class="col-md-3"> <a href="#myModalfoto16" role="button" data-toggle="modal"><img src="img/sunset/4.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+               <div class="col-md-3"> <a href="#myModalfoto16" role="button" data-toggle="modal"><img src="img/sunset/4.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Walking in haeven</div>
                <!-- Modal foto16-->
               <div id="myModalfoto16" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -469,7 +462,7 @@
               <!-- Fine Modal foto16-->
 		</div>
    <div class="row">
-            <div class="col-md-3"> <a href="#myModalfoto17" role="button" data-toggle="modal"><img src="img/sunset/5.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+            <div class="col-md-3"> <a href="#myModalfoto17" role="button" data-toggle="modal"><img src="img/sunset/5.JPG" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Pier</div>
              
             <!-- Modal foto17-->
               <div id="myModalfoto17" class="modal fade" role="dialog">
@@ -484,6 +477,8 @@
               <div class="modal-body">
               <img src="img/sunset/5.JPG" class="img-responsive"  alt="Image">
               </div>
+              <div class="panel-footer">Pier on the Pacific Ocean, Huntington Beach, California
+				  </div>
               <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -492,7 +487,7 @@
               </div>
               <!-- Fine Modal foto17-->
               
-             <div class="col-md-3"> <a href="#myModalfoto18" role="button" data-toggle="modal"><img src="img/sunset/6.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+             <div class="col-md-3"> <a href="#myModalfoto18" role="button" data-toggle="modal"><img src="img/sunset/6.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Gold</div>
              
              <!-- Modal foto18-->
               <div id="myModalfoto18" class="modal fade" role="dialog">
@@ -515,7 +510,7 @@
               </div>
               <!-- Fine Modal foto18-->
              
-              <div class="col-md-3"> <a href="#myModalfoto19" role="button" data-toggle="modal"><img src="img/sunset/7.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+              <div class="col-md-3"> <a href="#myModalfoto19" role="button" data-toggle="modal"><img src="img/sunset/7.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Scattered Pink</div>
                <!-- Modal foto19-->
               <div id="myModalfoto19" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -537,7 +532,7 @@
               </div>
               <!-- Fine Modal foto19-->
               
-               <div class="col-md-3"> <a href="#myModalfoto20" role="button" data-toggle="modal"><img src="img/sunset/8.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a></div>
+               <div class="col-md-3"> <a href="#myModalfoto20" role="button" data-toggle="modal"><img src="img/sunset/8.jpg" class="img-responsive" style="width:200px; margin: 5px;" alt="Image"></a>Sundet dream</div>
                <!-- Modal foto20-->
               <div id="myModalfoto20" class="modal fade" role="dialog">
               <div class="modal-dialog">
@@ -569,21 +564,21 @@
   <!-- panel macchie di colore-->      
  <div id="macchiedicolore" class="tab-pane fade in">
       <div class="panel">
-        <div class="panel-heading" style="background-color:#f8786b;text-align: center"> <h4>Macchie di colore</h4></div>
+        <div class="panel-heading" style="background-color:#f8786b;text-align: center"> 
+        <h2><font color="#fff">Macchie di colore</font></h2></div>
         <div class="panel-body">
-        <div class="row">
-            <div class="col-md-6"> <img src="img/macchie di colore/P4307079.JPG" class="img-responsive" style="width:500px" alt="Image"></div>
-            <div class="col-md-6">The quest for expression is the common thread of my life.<br>
-            The moments when I’ve found the means and ways to express an emotion, a feeling... those have been good moments to remember.<br><br>
-            I’ve always been interested in Photography, as a means of expression.<br>
-            Although I am aware of the importance of the theoretical knowledge of an instrument in order to get the best use of it, I constantly forget every rule I learned and use the camera in an instinctive way. Only by doing this I am able to capture in that rectangular space an image that moves and satisfies me.<br><br>
-            Macchie di Colore are photos I took in a period of experimental and instinctive use of the camera.
+            <div class="row">
+			   <div class="col-md-2"> </div>
+               <div class="col-md-8"> <img src="img/macchie di colore/P4307079.JPG" class="img-responsive" style="width:800px"          alt="Image"></div>
+               <div class="col-md-2"> </div>
             </div>
-        </div>
         </div> 
         <div class="panel-footer">
-        Playing with different combinations of color and shape, light and dark to evoke the idea of something more than just giving directly the image of a situation.<br>
-        It's an attempt to follow the concept of less is more where the viewer is invited to experience and partecipate rather then to be visually passive. 
+            The quest for expression is the common thread of my life.<br>
+            I’ve always been interested in Photography, as a means of expression.<br>
+            Although I am aware of the importance of the theoretical knowledge of an instrument in order to get the best use of it, I constantly forget every rule I learned and use the camera in an instinctive way. Only by doing this I am able to capture in that rectangular space an image that moves and satisfies me.<br><br>
+            Macchie di Colore are photos I took in a period of experimental and instinctive use of the camera.<br><br>
+            Playing with different combinations of color and shape, light and dark to evoke the idea of something more than just giving directly the image of a situation: it's an attempt to follow the concept of less is more where the viewer is invited to experience and partecipate rather then to be visually passive. 
         </div>
       </div>
       
@@ -648,6 +643,8 @@
               <div class="modal-body">
               <img src="img/macchie di colore/city2.JPG" class="img-responsive"  alt="Image">
               </div>
+               <div class="panel-footer">Driving on the Interstate 405, Los Angeles, California
+				  </div>
               <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -779,17 +776,22 @@
      <!-- panel collage-->      
  <div id="collage" class="tab-pane fade fade in"> 
    <div class="panel">
-        <div class="panel-heading" style="background-color:#f7c9c9; text-align: center"><h4>Collage </h4></div>
+        <div class="panel-heading" style="background-color:#b087aa; text-align: center">
+        <h2><font color="#fff">Collage</font></h2>
+        </div>
       <div class="panel-body">
         <div class="row">
-            <div class="col-md-6"> <img src="img/collage/collage003.jpg" class="img-responsive" style="width:500px" alt="Image"></div>
-            <div class="col-md-6">Child fear</div>
-        </div> 
-      </div>
-       <div class="panel-footer">The collage tecnique is achieved by overlaying papers, photos, objects, pieces of newspapers or magazines.<br>
-       I transpose this tecnique in a digital setting, putting images on top of others to express a concept or a situation.</div>
-      </div>
-       <div class="panel">
+			<div class="col-md-3"></div>
+            <div class="col-md-6"> <img src="img/collage/collage003.jpg" class="img-responsive" style="width:600px" alt="Image"></div>
+            <div class="col-md-3">
+            <br><h2>Child fear</h2><br>Collage elements:<br>Scared child hagging her teddy bear, night thunderstorm, who's hiding behind the door, screaming cat, child drawings representing being scared. 
+            </div> 
+        </div>
+            <div class="panel-footer"><br>The collage tecnique is achieved by overlaying papers, photos, objects, pieces of newspapers or magazines.<br>
+            I transpose this tecnique in a digital setting, putting images on top of others to express a concept or a situation.<br><br>
+            </div>
+       </div>  
+  <div class="panel">
       
       <div class="panel-body">
         <div class="row">
@@ -845,114 +847,130 @@
        
       </div>
    </div>
+ </div>
 <!-- fine panel collage-->  
     
      
     <!-- panel video-->      
  <div id="video" class="tab-pane fade fade in"> 
    <div class="panel">
-        <div class="panel-heading" style="background-color:#fbe338; text-align: center"><h4>Video </h4></div>
+        <div class="panel-heading" style="background-color:#2fb75c; text-align: center"> 
+        <h2><font color="#fff">Video</font></h2>
+        </div>
       <div class="panel-body">
         <div class="row">
-         <div class="col-md-6"> 
+         <div class="col-md-12">
+          <h2>Little Leaf</h2> 
            <div class="video-container">
             <iframe width="480" height="270" src="https://www.youtube.com/embed/7Y5z0s6bC5c" frameborder="0" allowfullscreen></iframe>
            </div>
          </div>
-       <div class="col-md-6">   
-           Little Leaf is the metaphorical history of a leaf that dreams to visit new places, far from the small forest where she is born.<br>
+        </div> 
+      </div>
+      <div class="panel-footer"><br>
+           Little Leaf is the metaphorical story of a leaf that dreams to visit new places, far from the small forest where she is born.<br>
            She feels safe at home but after a while she gets bored and asks the Wind to bring her with him to visit the World. He pleases her so she flies high, over the mountains, the farms, the lakes and the rivers until she reaches the City.<br>
            After a while the Sounds become aloud, Things move too fast, she feels herself in danger and desires to go back. There is no Wind to help her out this time.<br>
            Swowly Desire becomes Nostalgia.<br>
            Nostalgia is that feeling that happens when it’s impossible to go back where we want, and what if we desire something that’s never been real other than in the imaginary world of a child?
            <br><br>
            For this video I have combined normal footage with still images from the 'Macchie di colore' group.<br>
-           Music from Litfiba  "Eroi nel vento".    
-       </div>
-        </div> 
-      </div>
+           Music from Litfiba  "Eroi nel vento".  <br><br>  
+        </div>
       </div>
       
        <div class="panel">
        <div class="panel-body">
         <div class="row">
-            <div class="col-md-6"> <div class="video-container">
+            <div class="col-md-12">
+            <h2>Elusion</h2> <div class="video-container">
            <iframe  width="480" height="270" src="https://www.youtube.com/embed/0IlDhgzVdjM" frameborder="0" allowfullscreen></iframe>
            </div>
             </div>
-            <div class="col-md-6">This video is about the cycle of life that starts with the childwood and closes with the old age, is about hope and sometimes arrogance of the young, wisdom of the old, illusion and elusion, about time.<br><br>
-            Music: "Morning Song" by Zero 7 
-            </div>
         </div>
-		</div> 
+		</div>
+     <div class="panel-footer"><br>This video is about the cycle of life that starts with the childwood and closes with the old age, it is about hope and sometimes arrogance of the young, wisdom of the old, illusion and elusion, about time.<br><br>
+            Music: "Morning Song" by Zero 7 
+             <br><br>  
+        </div> 
       </div>
       
       <div class="panel">
        <div class="panel-body">
         <div class="row">
-            <div class="col-md-6"> <div class="video-container">
+            <div class="col-md-12"> <h2>Pinocchio</h2><div class="video-container">
           <iframe width="480" height="270" src="https://www.youtube.com/embed/pOtKu_8FvmA" frameborder="0" allowfullscreen></iframe>
            </div>
             </div>
-            <div class="col-md-6">Creating this video I can say I have experimented also Maya, the 3D animation software.<br>
+        </div>
+		</div>
+        <div class="panel-footer"><br>Creating this video I can say I have experimented also Maya, the 3D animation software.<br>
             The experience has been almost as dramatic as Pinocchio’s one: my computer was going to burn in the effort of the rendering process.<br><br>
             We made a deal: never 3D again! <img src="img/07.png" width="40px">
-            </div>
-        </div>
-		</div> 
+             <br><br>  
+        </div>  
       </div>
    </div>
 <!-- fine panel video--> 
      <!-- panel ceramica-->      
  <div id="ceramica" class="tab-pane fade fade in"> 
    <div class="panel">
-        <div class="panel-heading" style="background-color:#b18f6a; text-align: center"><h4>Ceramics </h4></div>
+        <div class="panel-heading" style="background-color:#b18f6a; text-align: center">
+        <h2><font color="#fff">Ceramics</font></h2>
+        </div>
       <div class="panel-body">
         <div class="row">
-            <div class="col-md-6"> <img src="img/ceramica/ceramica1.jpg" class="img-responsive" style="width:500px" alt="Image"></div>
-            <div class="col-md-6">Working with clay is a very engaging experience, moulding with hands adds a sensorial aspect to this art that is missing elsewhere and it gives a wider satistaction while creating the object.       
-            </div>
+			<div class="col-md-2"> </div>
+            <div class="col-md-8"> <img src="img/ceramica/ceramica1.jpg" class="img-responsive" style="width:800px" alt="Image"></div>
+            <div class="col-md-2"> </div>
         </div> 
       </div>
-       <div class="panel-footer"></div>
+       <div class="panel-footer"><br>Working with clay is a very engaging experience, moulding with hands adds a sensorial aspect to this art that is missing elsewhere and it gives a wider satistaction while creating the object.<br><br>   
+       </div>
       </div>
    </div>
 <!-- fine panel ceramica--> 
 <!--  panel disegno-->  
      <div id="disegno" class="tab-pane fade fade in">
        <div class="panel">
-        <div class="panel-heading" style="background-color:#ee5b3e; text-align: center"><h4>Drawing</h4></div>
+        <div class="panel-heading" style="background-color:#ee5b3e; text-align: center">
+       <h2><font color="#fff">Drawing</font></h2>
+        </div>
         <div class="panel-body">
         <div class="row">
-            <div class="col-md-6"> <img src="img/disegno/draw003.jpg" class="img-responsive" style="width:500px" alt="Image"></div>
-            <div class="col-md-6">Drawing, one of the first and most immediate form of expression in the visual arts.<br>
-            It’s too bad I haven’t deepened it more, maybe I’ve been intimidated by who is really a master with pencil and color... but what I aim for is exploring means of expression and expressing myself, not being an artist.<br><br>
-            Once an art teacher told me that even a sign traced on paper has a meaning. This has been an important concept, it has encouraged me to get to know and appreciate modern art. That sometimes is a little bit harsh and in contrast with the idea of classic beauty but it reflects the interior world of the artist as well as that of the viewer, if he lets himself be captured by it.
-            </div>
+           <div class="col-md-2"></div>
+            <div class="col-md-8"> <img src="img/disegno/draw003.jpg" class="img-responsive" style="width:600px" alt="Image"></div>
+            <div class="col-md-2"></div>
         </div>
 		</div> 
-        <div class="panel-footer"></div>
+            <div class="panel-footer"><br>Drawing, one of the first and most immediate form of expression in the visual arts.<br>
+            I have never mastered it but for sure explored.
+            <br><br>
+            </div>
       </div>
     </div>  
     <!--  fine panel disegno-->  
      <!-- panel arte povera-->      
  <div id="artepovera" class="tab-pane fade fade in"> 
    <div class="panel">
-        <div class="panel-heading" style="background-color:#f6d196; text-align: center"><h4>Arte Povera</h4></div>
+        <div class="panel-heading" style="background-color:#e48655; text-align: center">
+        <h2><font color="#fff">Arte Povera</font></h2>
+        </div>
       <div class="panel-body">
         <div class="row">
-            <div class="col-md-6"> <img src="img/Arte povera/mammamore.jpg" class="img-responsive" style="width:500px" alt="Image"></div>
-            <div class="col-md-6">During a period of my life when I had lost contacts with myself and was attempting to reconnect, I experimented a primary approach of expression.<br>
-            Nature is often the restarting point.<br>
-            It was winter and I used to walk on the shore everyday; breathing the salty air I observed all the things gathered on the beach, brought there from the tide, the wind and the rain.<br>
-            One day, casually, I picked up some little objects and tried to put them together in a meaningful way.<br><br>
-            These are some of the results:<br><br>
-            MAMMAMORE<br>
-            It expresses my ideal of mother, with open arms, always ready to give a hug.<br>
+            <div class="col-md-8"> <img src="img/Arte povera/mammamore.jpg" class="img-responsive" style="width:700px" alt="Image"></div>
+            <div class="col-md-4">
+            <br><br><h2>Mammamore</h2><br>
+            It expresses my ideal of Mother.<br><br> Open arms, always ready to give a hug.<br>
             Her belly is made of a light colored wood, a ‘warm’ material, not perfect anymore, consumed but beautiful like a lace dress.<br>
             Her stone head is strong, heart shaped, big and full of love.
             </div>
         </div> 
+      </div>
+      <div class="panel-footer"><br>Arte Povera is a primary approach of expression.<br>
+                       It was winter and I used to walk on the shore everyday; breathing the salty air I observed all the things gathered on the beach, brought there from the tide, the wind and the rain.<br>
+            One day, casually, I picked up broken shells, rocks, eroded glass, sticks and tried to put them together in a meaningful way.<br><br>
+            These are some of the results.<br><br>
       </div>
      </div>
 
@@ -968,11 +986,14 @@
               <div class="modal-content">
               <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Prega</h4>
+              <h4 class="modal-title">Prayer</h4>
               </div>
               <div class="modal-body">
               <img src="img/Arte povera/prega.jpg" class="img-responsive"  alt="Image">
               </div>
+              <div class="panel-footer"> A man on his knees is looking at the stars, with praying hands.<br>
+             The sky is not a vast expanse, it’s rather an intimate, cozy place where he can let himself go and pray, feeling safe like at home.
+				  </div>
               <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
@@ -980,10 +1001,7 @@
               </div>
               </div>
               <!-- Fine Modal prega-->
-            <div class="col-md-4">PREGA <br>
-             A man on his knees is looking at the stars, with praying hands.<br>
-             The sky is not a vast expanse, it’s rather an intimate, cozy place where he can let himself go and pray, feeling safe like at home.<br>
-            </div>
+            <div class="col-md-4">Prayer </div>
             <div class="col-md-2"> <a href="#myModalvaso" role="button" data-toggle="modal"><img src="img/Arte povera/vaso.jpg" class="img-responsive" style="width:200px" alt="Image"></a></div>
              <!-- Modal vaso-->
               <div id="myModalvaso" class="modal fade" role="dialog">
@@ -993,7 +1011,7 @@
               <div class="modal-content">
               <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Un vaso di fiori</h4>
+              <h4 class="modal-title">Flower pot</h4>
               </div>
               <div class="modal-body">
               <img src="img/Arte povera/vaso.jpg" class="img-responsive"  alt="Image">
@@ -1005,60 +1023,46 @@
               </div>
               </div>
               <!-- Fine Modal prega-->
-             <div class="col-md-4">IL VASO<br>
-           A flower pot. </div>
+             <div class="col-md-4">Flower pot </div>
         </div> 
       </div>
    </div>
-   
-   
-   
-             <!-- Modal passione-->
-              <div id="myModalpassione" class="modal fade" role="dialog">
-              <div class="modal-dialog">
-
-              <!-- Modal content-->
-              <div class="modal-content">
-              <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Passione</h4>
-              </div>
-              <div class="modal-body">
-              <img src="img/macchie di colore/wish.JPG" class="img-responsive"  alt="Image">
-              </div>
-              <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-              </div>
-              </div>
-              </div>
-              <!-- Fine Modal passione-->
-   
-    <!-- fine arte povera--> 
+  <!-- fine arte povera--> 
       
   
     </div>
   </div>
 </div>
+
+<!-- quote-->
+<div class="row">
+	<div class="col-md-4"></div>
+    <div class="col-md-4">
+      <p><blockquote>“Always follow your passions.<br>
+       Do not ask if they are realistic or not.”
+       <h5>-Deepak Chopra </h5>
+       </blockquote></p>
+    </div>
+  <div class="col-md-4"></div>
+</div>
+<!--end  quote-->
  
  <!--footer-->
  <div class="footer">
    <div class="container">
     <div class="row">
       <div class="col-sm-4 col-md-3 col-xs-6">
-         <h4>Who I am</h4>
-         <ul class="list-unstyled">
-              <li><img src="img/donacuori.jpg" width="60px"></li>
-              <li> <p><i>me you all</i> </p></li>                 
-            </ul>
+              <ul class="list-unstyled">
+                  <li><img src="img/v.gif" height="60px">Vilmare©2018</li>
+              </ul>
 		</div>
 
       <div class="col-sm-2 col-xs-6 col-md-offset-1">
            <h4>Links</h4>
             <ul class="list-unstyled">
               <li><a href="index.html">Home</a></li>
+              <li><a href="curriculum_website.pdf">CV</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
       </div>
 
@@ -1068,6 +1072,7 @@
             <h4>I'm Social</h4>
             <ul class="list-unstyled">
             <li><a href="https://uk.linkedin.com/in/vilma-recchiuti">Linkedin</a></li>
+            <li><a href="https://www.instagram.com/vilma.recchiuti/">Instagram</a></li>
             </ul>
       </div>
 
@@ -1078,16 +1083,16 @@
             </li><li><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:#">vilmare@hotmail.com</a></li><li>
             </li></ul>
 
-            <p>Vilmare©2017</p>
       </div>
     </div>
   </div>
 </div>
-
- <!--end footer-->
+<!--end footer-->
+  
    </div>
-	 </section>
-
+</div>	 
+</section>
+	
 <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>            

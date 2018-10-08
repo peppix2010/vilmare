@@ -42,7 +42,14 @@ padding-top: 8px;
 	padding-bottom: 100px;
 	text-align: center;
 	color: white;
-	 
+	 }
+ .jumbotron1{
+    background: url( ../img/survivor.gif) no-repeat center center;
+    background-size: cover;
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: black;	 
 }
 .me{
     background: url( ../img/2.JPG) no-repeat center center;
@@ -56,7 +63,7 @@ padding-top: 8px;
  .testo { 
  color: black;
  text-decoration: none;
-	font-size:medium; 
+	font-size: 1em; 
 	 font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
   font-style: semilight;
 }
@@ -74,18 +81,12 @@ body {
 #my_carousel.item{
 	   height: 400px;
 		}
-.carousel-inner{
-background:  #e5252d;
+
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+    filter: progid:none !important;
 }
-.carousel-indicators {
-		bottom:-25px;
-		background:gray;
-		 box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-	    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-	    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-	    -o-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-	    -ms-box-shadow: 0 0 10px rgba(0,0,0,0.35), 0px 1px 3px rgba(0,0,0,0.18), inset 0px -3px 0px rgba(0,0,0,0.35), inset 0px 14px 14px rgba(255,255,255,0.25);
-	}
+
 .panel-footer{
 	   font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
        font-style: semilight;

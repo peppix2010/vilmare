@@ -1,9 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 .navbar {
-  margin: 10px 0;
+  margin: 0px 0;
 
 }
+
 .navbar-default {
 background-color: #fff;
 border-color: #fff;
